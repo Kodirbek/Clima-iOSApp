@@ -19,6 +19,7 @@
 		DA2BCAFF27118ADC00D5ADFB /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2BCAFE27118ADC00D5ADFB /* WeatherManager.swift */; };
 		DA2BCB022712DAAF00D5ADFB /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2BCB012712DAAF00D5ADFB /* WeatherData.swift */; };
 		DA2BCB042713F66900D5ADFB /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2BCB032713F66900D5ADFB /* WeatherModel.swift */; };
+		DAC3E94828A08ABF004E974A /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAC3E94728A08ABE004E974A /* Keys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		DA2BCAFE27118ADC00D5ADFB /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		DA2BCB012712DAAF00D5ADFB /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		DA2BCB032713F66900D5ADFB /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		DAC3E94728A08ABE004E974A /* Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				ADAA27BE231BBFB300365194 /* Info.plist */,
 				ADAA27C5231BC02B00365194 /* dark_background.pdf */,
 				ADAA27C4231BC02B00365194 /* light_background.pdf */,
+				DAC3E94728A08ABE004E974A /* Keys.plist */,
 			);
 			path = Clima;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				ADAA27C7231BC02C00365194 /* dark_background.pdf in Resources */,
 				ADAA27BD231BBFB300365194 /* LaunchScreen.storyboard in Resources */,
 				ADAA27BA231BBFB300365194 /* Assets.xcassets in Resources */,
+				DAC3E94828A08ABF004E974A /* Keys.plist in Resources */,
 				ADAA27B8231BBFAF00365194 /* Main.storyboard in Resources */,
 				ADAA27C6231BC02C00365194 /* light_background.pdf in Resources */,
 			);

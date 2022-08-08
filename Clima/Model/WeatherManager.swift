@@ -14,8 +14,22 @@ protocol WeatherManagerDelegate {
     func didFailWithError(error: Error)
 }
 
+func getAPI() -> String {
+  var key: NSDictionary?
+  var weatherApi = ""
+  if let path = Bundle.main.path(forResource: "Keys", ofType: "plist") {
+        key = NSDictionary(contentsOf: URL(fileURLWithPath: path))
+    }
+    
+  if let dict = key {
+    weatherApi = dict["WeatherAPI"] as? String ?? ""
+    }
+  return weatherApi
+}
+
 struct WeatherManager {
-    let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=d3faa7bad6f2ec028489a3505e4b92e5&units=metric"
+  
+  let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=\(getAPI())&units=metric"
     // if the url is 'http', then the URLSession won't work because the connection is insecure
     
     var delegate: WeatherManagerDelegate?
